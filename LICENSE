@@ -1,0 +1,15 @@
+
+## 4️⃣ **Initialize Git di Project**
+
+```bash
+# Masuk ke folder project Anda
+cd path/to/your/vue-todo-app
+
+# Initialize git repository
+git init
+
+# Tambahkan remote origin (ganti dengan URL repository Anda)
+git remote add origin https://github.com/username/vue-todo-app.git
+
+# Cek remote
+git remote -v
