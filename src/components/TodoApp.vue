@@ -181,7 +181,7 @@
 
 <script>
 import DashboardPage from './DashboardPage.vue'
-// import VitalTaskPage from './VitalTaskPage.vue'
+import VitalTaskPage from './VitalTaskPage.vue'
 // import MyTaskPage from './MyTaskPage.vue'
 // import UnderDevelopmentPage from './UnderDevelopmentPage.vue'
 
@@ -189,7 +189,7 @@ export default {
   name: 'TodoApp',
   components: {
     DashboardPage,
-    // VitalTaskPage,
+    VitalTaskPage,
     // MyTaskPage,
     // UnderDevelopmentPage
   },
