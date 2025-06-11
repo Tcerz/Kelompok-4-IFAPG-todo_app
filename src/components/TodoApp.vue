@@ -182,16 +182,16 @@
 <script>
 import DashboardPage from './DashboardPage.vue'
 import VitalTaskPage from './VitalTaskPage.vue'
-// import MyTaskPage from './MyTaskPage.vue'
-// import UnderDevelopmentPage from './UnderDevelopmentPage.vue'
+import MyTaskPage from './MyTaskPage.vue'
+import UnderDevelopmentPage from './UnderDevelopmentPage.vue'
 
 export default {
   name: 'TodoApp',
   components: {
     DashboardPage,
     VitalTaskPage,
-    // MyTaskPage,
-    // UnderDevelopmentPage
+    MyTaskPage,
+    UnderDevelopmentPage
   },
   data() {
     return {
